@@ -1,12 +1,12 @@
-const btnLogin = document.querySelector('.login')
-const btnReg = document.querySelector('.reg')
+const btnLogin = document.querySelector('.login');
+const btnReg = document.querySelector('.reg');
 
-console.log(btnLogin)
+//console.log(btnLogin, btnReg);
 
-btnLogin.addEventListener('click', () => {
+btnLogin.addEventListener('click', ()=> {
     window.location.href = '../html/login.html';
 });
 
-btnReg.addEventListener('click', () =>{
+btnReg.addEventListener('click', () => {
     window.location.href = '../html/registration.html';
 });
